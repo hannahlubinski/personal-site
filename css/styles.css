@@ -1,30 +1,160 @@
 /***********************************************ELEMENT***********************************************/
 body {
   margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514e;
 }
 
 h1 {
-  margin-top: 0;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.626rem;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  line-height: 2;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+color: #eaf6f6;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p {
+    line-height: 2;
 }
 
 /***********************************************CLASS***********************************************/
 .top-container {
   background-color: #e4f9f5;
-}
-
-.middle-container {
-  height: 200px;
-  width: 200px;
-  background-color: red;
+  position: relative;
+  padding-top: 100px;
 }
 
 .bottom-container {
-  height: 200px;
-  width: 200px;
-  background-color: blue;
+  background-color: #66bfbf;
+  margin-top: 5rem;
+  padding: 50px 0 20px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.profile-pic {
+  border-radius: 70%;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.programmer {
+  line-height: 2;
 }
 
 .pro {
   text-decoration: underline;
 }
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  padding: 10px;
+  text-align: left;
+}
+
+.skill-paragraph {
+  text-align: left;
+}
+
+.web-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.analysis-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #66BFBF;
+  padding: 10px 20px 10px 20px;
+
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #11999E;
+  text-decoration: none;
+}
+
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  padding-top: 25px;
+  margin: 10px 20px;
+}
+
+.copywright {
+  color: #eaf6f6;
+  font-size: .75rem;
+  margin-bottom: 0;
+  padding: 20px 0;
+}
+
+.icon-credit {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.contact-me-msg {
+  margin: 40px auto 60px;
+}
+
 /***********************************************IDs***********************************************/
